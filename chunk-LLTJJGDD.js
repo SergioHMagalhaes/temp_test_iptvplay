@@ -1,0 +1,1 @@
+var r=/\b(4k|uhd|fhd|hd|sd|hdr|dv|dolby|atmos|1080p|720p|2160p|x264|x265|h264|h265|bluray|web-dl|webrip)\b/gi,d=/\bS\d{1,2}E\d{1,2}\b/gi;function p(e){return e.replace(/\[[^\]]*]/g," ").replace(/\((?:19|20)\d{2}\)/g," ").replace(d," ").replace(r," ").replace(/\s+-\s*$/g," ").replace(/\s{2,}/g," ").trim()}export{p as a};
